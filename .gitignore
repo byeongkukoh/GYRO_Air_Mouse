@@ -1,0 +1,71 @@
+# ======= General =======
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ======= STM32CubeIDE Firmware =======
+firmware/.settings/
+firmware/Debug/
+firmware/Release/
+firmware/*.ioc.user
+firmware/*.launch
+firmware/CM7/
+firmware/CM4/
+firmware/CM0/
+firmware/CM0PLUS/
+firmware/.cproject
+firmware/.project
+firmware/STM32F*/*.bin
+firmware/STM32F*/*.hex
+firmware/*.elf
+firmware/*.map
+firmware/*.list
+
+# Auto-generated files by STM32CubeMX
+firmware/Core/Inc/stm32*
+firmware/Core/Src/stm32*
+
+# Backup files
+firmware/*~
+
+
+# ======= Windows Desktop C++ App =======
+desktop-app/build/
+desktop-app/bin/
+desktop-app/Debug/
+desktop-app/Release/
+desktop-app/*.exe
+desktop-app/*.obj
+desktop-app/*.pdb
+desktop-app/*.ilk
+desktop-app/*.suo
+desktop-app/*.user
+desktop-app/*.vcxproj.*
+desktop-app/CMakeFiles/
+desktop-app/CMakeCache.txt
+desktop-app/Makefile
+desktop-app/*.ncb
+desktop-app/*.aps
+
+# VSCode and CMake metadata
+.vscode/
+*.code-workspace
+CMakeLists.txt.user
+
+# ======= Others =======
+*.out
+*.a
+*.o
+*.log
+*.ctags
+*.tags
+
+# Ignore Python or test scripts (if any)
+__pycache__/
+*.pyc
+*.pyo
